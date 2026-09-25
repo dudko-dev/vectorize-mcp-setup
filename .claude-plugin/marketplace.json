@@ -1,0 +1,24 @@
+{
+  "name": "vectorize",
+  "description": "Official Vectorize plugin for Claude Code — trace raster images into SVG, PDF, EPS or DXF through the Vectorize API.",
+  "owner": {
+    "name": "dudko.dev",
+    "email": "sergey@dudko.dev"
+  },
+  "plugins": [
+    {
+      "name": "vectorize",
+      "source": "./",
+      "description": "Let Claude turn PNG/JPG images into vector drawings (SVG, PDF, EPS, DXF) with Vectorize: the MCP server returns a checked API request with a short-lived credential, and the picture never passes through the model.",
+      "category": "design",
+      "tags": [
+        "svg",
+        "vectorize",
+        "image-tracing",
+        "raster-to-vector",
+        "dxf",
+        "design"
+      ]
+    }
+  ]
+}
