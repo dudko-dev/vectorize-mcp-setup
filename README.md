@@ -1,0 +1,1 @@
+# vectorize-mcp-setup
