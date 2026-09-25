@@ -1,0 +1,28 @@
+{
+  "name": "vectorize",
+  "description": "Let Claude turn PNG/JPG images into vector drawings (SVG, PDF, EPS, DXF) with Vectorize: the MCP server returns a checked API request with a short-lived credential, and the picture never passes through the model.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dudko.dev",
+    "email": "sergey@dudko.dev"
+  },
+  "homepage": "https://vectorize.dudko.dev",
+  "repository": "https://github.com/dudko-dev/vectorize-mcp-setup",
+  "keywords": [
+    "vectorize",
+    "svg",
+    "raster-to-vector",
+    "image-tracing",
+    "png-to-svg",
+    "pdf",
+    "eps",
+    "dxf",
+    "mcp"
+  ],
+  "mcpServers": {
+    "vectorize": {
+      "type": "http",
+      "url": "https://vectorize.dudko.dev/mcp"
+    }
+  }
+}
